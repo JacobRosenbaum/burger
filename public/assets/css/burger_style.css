@@ -1,11 +1,17 @@
 #body {
-    background-color: orange;
+    /* background: url("../img/triangle-mosaic.png"); */
+    background-color: red;
+    opacity: .9;
+    background-size: auto, cover;
+
 }
 
 #addburger {
     color: white;
     background-color: red;
     border: 1px red solid;
+    border-radius: 10px; 
+
 }
 
 #devourButton {
@@ -13,6 +19,7 @@
     background-color: red;
     border: 1px red solid;
     margin-left: 20px;
+    border-radius: 10px; 
 }
 
 #deleteButton {
@@ -20,4 +27,25 @@
     background-color: red;
     border: 1px red solid;
     margin-left: 20px;
+    border-radius: 10px; 
+}
+#jumbotron{
+background-color: lightskyblue;
+text-align: center;
+margin-top: 40px;
+border-radius: 25px; 
+font-family: 'Comfortaa', cursive;
+}
+
+img{
+    border-radius: 25px; 
+    height: 220px; 
+    width: 275px; 
+}
+#row1{
+    color: white
+}
+#enter{
+    color: white;
+     font-size: 17px; 
 }
