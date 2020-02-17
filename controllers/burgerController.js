@@ -38,6 +38,13 @@ router.put("/api/burgers/:id", function(req, res) {
         }
     });
 });
+router.put("/api/updatedBurgers/:id", function(req, res) {
+    var condition = req.params.id;
+  
+    burger.updateOrder(condition, function(result) {
+      res.json(result);
+    });
+  });
 
 router.delete("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;

@@ -16,7 +16,7 @@ $(function() {
                 }
             );
         } else {
-            $.ajax("/api/updatedBurgers" + id, {
+            $.ajax("/api/updatedBurgers/" + id, {
                 type: "PUT",
                 data: newDevouredState
             }).then(
